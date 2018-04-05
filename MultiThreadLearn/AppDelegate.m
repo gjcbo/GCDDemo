@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  GCD
+//  MultiThreadLearn
 //
-//  Created by RaoBo on 2017/12/22.
-//  Copyright © 2017年 RaoBo. All rights reserved.
+//  Created by RaoBo on 2018/4/5.
+//  Copyright © 2018年 关键词. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    ViewController *vc = [[ViewController alloc] init];
+    UINavigationController *navc = [[UINavigationController alloc] initWithRootViewController:vc];;
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = navc;
+    
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

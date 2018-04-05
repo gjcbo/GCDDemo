@@ -1,0 +1,24 @@
+//
+//  MThreadPrefix.pch
+//  MultiThreadLearn
+//
+//  Created by RaoBo on 2018/4/5.
+//  Copyright © 2018年 关键词. All rights reserved.
+//
+
+#ifndef MThreadPrefix_pch
+#define MThreadPrefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIButton+Add.h"
+
+#define kTitle @"title"
+#define kChildren @"children"
+#define kSelector @"selector"
+
+#define kScreen_W [UIScreen mainScreen].bounds.size.width
+#define kScreen_H [UIScreen mainScreen].bounds.size.height
+
+#endif /* MThreadPrefix_pch */
