@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49873F6520F8F560001454F4 /* RBNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 49873F6420F8F560001454F4 /* RBNetWorkTool.m */; };
 		49FF4E2E20764F7400A4EC65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FF4E2D20764F7400A4EC65 /* AppDelegate.m */; };
 		49FF4E3120764F7400A4EC65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FF4E3020764F7400A4EC65 /* ViewController.m */; };
 		49FF4E3420764F7400A4EC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FF4E3220764F7400A4EC65 /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49873F6320F8F560001454F4 /* RBNetWorkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBNetWorkTool.h; sourceTree = "<group>"; };
+		49873F6420F8F560001454F4 /* RBNetWorkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBNetWorkTool.m; sourceTree = "<group>"; };
 		49FF4E2920764F7400A4EC65 /* MultiThreadLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiThreadLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FF4E2C20764F7400A4EC65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		49FF4E2D20764F7400A4EC65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +55,8 @@
 		49873F6220F8F14F001454F4 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				49873F6320F8F560001454F4 /* RBNetWorkTool.h */,
+				49873F6420F8F560001454F4 /* RBNetWorkTool.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 				49FF4E3C20764F7400A4EC65 /* main.m in Sources */,
 				49FF4E2E20764F7400A4EC65 /* AppDelegate.m in Sources */,
 				49FF4E562076646700A4EC65 /* GCDDemoViewController.m in Sources */,
+				49873F6520F8F560001454F4 /* RBNetWorkTool.m in Sources */,
 				49FF4E472076508400A4EC65 /* UIButton+Add.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
